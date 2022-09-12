@@ -1,0 +1,11 @@
+body {
+    font-family: 'Roboto'
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
