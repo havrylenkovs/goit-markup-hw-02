@@ -78,15 +78,17 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background: var(--primary-white-color);
+  color: var(--logo-color);
   text-decoration: none;
   cursor: pointer;
 }
 
-/* .title-list-none {
-    сховати його
-} */
+.button-main:hover {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+  
 
 .title-list-feature {
   font-weight: 700;
@@ -162,21 +164,22 @@ body {
 
 /****************** PORTFOLIO **************************************************/
 
-/* .main-portfolio {
-    сховати
-} */
-
 .buttons-portfolio-item {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.16;
   letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
+  background:var(--primary-white-color);
+  color: var(--logo-color);
   text-decoration: none;
   letter-spacing: 0.03em;
   cursor: pointer;
+}
+
+.buttons-portfolio-item:hover {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
 }
 
 .projects-head {
@@ -184,12 +187,12 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--secondary-text-color);
 }
 
 .projects-text {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 }
