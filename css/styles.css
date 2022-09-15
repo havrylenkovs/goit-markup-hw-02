@@ -26,7 +26,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03e;
+  letter-spacing: 0.03em;
   color: var(--logo-color);
 }
 
@@ -69,7 +69,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color:var(--primary-white-color); */
+  background:#2F303A;
+  color:var(--primary-white-color);
 }
 
 .button-main {
@@ -88,7 +89,6 @@ body {
   color: var(--primary-white-color);
   background: var(--accent-color);
 }
-  
 
 .title-list-feature {
   font-weight: 700;
@@ -100,19 +100,27 @@ body {
 }
 
 .feature-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.title-works .title-command {
+.title-works {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: var(--logo-color);
+}
+
+.title-command {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
 }
 
 .title-list-name {
@@ -192,7 +200,7 @@ body {
 
 .projects-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
