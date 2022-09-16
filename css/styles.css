@@ -5,13 +5,14 @@
   --primary-text-color: #757575;
   --primary-white-color: #ffffff;
   --secondary-text-color: #212121;
-  --background-button-color:#F5F4FA;
+  --background-head-color: #F5F4FA;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  
 }
 
 .link {
@@ -63,6 +64,11 @@ body {
 
 /* *********************************MAIN **************************/
 
+
+.main{
+background-color:#2F303A;
+}
+
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -70,8 +76,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background:#2F303A;
-  color:var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 
 .visually-hidden {
@@ -93,15 +98,16 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  background: var(--primary-white-color);
-  color: var(--primary-main-color);
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
   text-decoration: none;
   cursor: pointer;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 .button-main:hover {
-  color: var(--primary-white-color);
-  background: var(--accent-color);
+  background-color: #188CE8;
 }
 
 .feature-title {
@@ -123,25 +129,30 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-main-color);
+}
+
+.title-command {
+  background-color: var(--background-head-color);
 }
 
 .title-head-command {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-main-color);
+}
+
+.title-coomand-item{
+  background-color: var(--primary-white-color);
 }
 
 .title-command-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
@@ -149,7 +160,6 @@ body {
 .title-command-text {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -192,16 +202,18 @@ body {
   font-size: 16px;
   line-height: 1.16;
   letter-spacing: 0.06em;
-  background:var(--primary-white-color);
-  color: var(--logo-color);
+  background-color: var(--background-head-color);
+  color: var(--primary-main-color);
   text-decoration: none;
-  letter-spacing: 0.03em;
   cursor: pointer;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 .buttons-portfolio-item:hover {
+  background-color: #188CE8;
   color: var(--primary-white-color);
-  background: var(--accent-color);
+
 }
 
 .projects-head {
