@@ -1,6 +1,7 @@
 :root {
   --logo-color: #000000;
   --accent-color: #2196f3;
+  --primary-main-color: #000000;
   --primary-text-color: #757575;
   --primary-white-color: #ffffff;
   --secondary-text-color: #212121;
@@ -39,7 +40,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--logo-color);
+  color: var(--primary-main-color);
 }
 
 .menu :hover,
@@ -47,7 +48,7 @@ body {
   color: var(--accent-color);
 }
 
-.contact-number {
+.contact-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -73,6 +74,19 @@ body {
   color:var(--primary-white-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .button-main {
   font-family: inherit;
   font-weight: 700;
@@ -80,7 +94,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   background: var(--primary-white-color);
-  color: var(--logo-color);
+  color: var(--primary-main-color);
   text-decoration: none;
   cursor: pointer;
 }
@@ -90,7 +104,7 @@ body {
   background: var(--accent-color);
 }
 
-.title-list-feature {
+.feature-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -105,25 +119,25 @@ body {
   letter-spacing: 0.03em;
 }
 
-.title-works {
+.title-works-head {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--logo-color);
+  color: var(--primary-main-color);
 }
 
-.title-command {
+.title-head-command {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--logo-color);
+  color: var(--primary-main-color);
 }
 
-.title-list-name {
+.title-command-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -132,7 +146,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.title-list-text {
+.title-command-text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
