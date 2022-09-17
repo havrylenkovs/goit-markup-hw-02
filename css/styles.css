@@ -210,10 +210,10 @@ background-color:#2F303A;
   border-radius: 4px;
 }
 
-.buttons-portfolio-item:hover {
+.buttons-portfolio-item:hover,
+.buttons-portfolio-item:focus {
   background-color: #188CE8;
   color: var(--primary-white-color);
-
 }
 
 .projects-head {
